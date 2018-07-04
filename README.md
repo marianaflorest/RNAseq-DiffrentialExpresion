@@ -1,22 +1,20 @@
-@@Module Name@@
-===============
+Differential Expression Pipeline
+================================
 
-@@Module description and objectives@@
+A pipeline for analising differential expression data.
 
 
 Usage
 =====
 
-Place your @@format@@ files into the `data/` directory
+Place your `.fastq` files into the `data/` directory
 and execute:
 
 ```
 $ condor submit
 ```
 
-Your @@kind@@ files will be on `results/` when the process ends.
-
-@@Further comments on input requirements.@@
+Your cont files will be on `results/` when the process ends.
 
 
 Options
@@ -50,12 +48,8 @@ Requirements
 
   - [`mk`](http://doc.cat-v.org/bell_labs/mk/mk.pdf "A successor for `make`.")
 
-  - [@@additional software@@](@@software URL@@ "@@Description@@")
-
 
 References
 ==========
 
-@@What documents did you used for making this module?@@
-
-@@Where is the documentation for the software used?@@
+(https://doi.org/10.1186/1471-2105-14-91 "")
